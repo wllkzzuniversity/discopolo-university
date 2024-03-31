@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISCO POLO</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="#!" class="logo">DISCO</a>
+
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#about" class="nav-link">O nas</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Usługi</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <div class="header-row">
+
+                <div class="header-content" id="about" data-aos="fade-left">
+                    <h1 class="header-heading">Neonowa Fala</h1>
+                    <p>Zespół "Neonowa Fala" to dynamiczna grupa muzyczna specjalizująca się w wykonawstwie największych przebojów gatunku disco polo. Nasza energia i entuzjazm sprawią, że Twoje wydarzenie nabierze niezapomnianego klimatu!</p>
+                </div>
+
+                <div class="header-img" data-aos="fade-down">
+                    <img src="./img/dancer.png" alt="disco dancer">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-row">
+
+                <div class="service-card" data-aos="fade-left">
+                    <img class="service-card-img" src="./img/services/01.png" alt="UI/UX Design">
+                    <h3 class="service-card-title">wesela</h3>
+                    <p>Zapewniamy pełne dostosowanie repertuaru do Państwa preferencji, abyście mogli bawić się w rytm ulubionych utworów.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-left">
+                    <img class="service-card-img" src="./img/services/02.png" alt="UI/UX Design">
+                    <h3 class="service-card-title">koncerty</h3>
+                    <p>Organizujemy koncerty zarówno na dużych scenach, jak i w klubach muzycznych, zapewniając niezapomniane przeżycia dla fanów disco polo.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-left">
+                    <img class="service-card-img" src="./img/services/03.png" alt="UI/UX Design">
+                    <h3 class="service-card-title">studniówki</h3>
+                    <p>Tworzymy niepowtarzalną atmosferę podczas studniówek, zapewniając muzykę, która sprawi, że ta noc będzie wyjątkowa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <div class="team-title">
+                <h2 class="title-1">NASZ ZESPÓŁ</h2>
+            </div>
+
+            <div class="team-photo" data-aos="flip-down">
+                <img src="./img/team.png" alt="Online fashion store" class="team-img">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacts" id="contact" data-aos="flip-down">
+        <div class="container">
+            <div class="contacts-title">
+                <h2 class="title-1">NAPISZ DO NAS</h2>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Imię i nazwisko" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Adres email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Wiadomość" required></textarea>
+                </div>
+                <button type="submit" class="btn">Wyślij</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer-bar">
+        <div class="container">
+            <span>Neonowa fala &copy; 2024</span>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
