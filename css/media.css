@@ -88,24 +88,5 @@
 		margin-bottom: 30px;
 	}
 
-	.contacts {
-		padding: 60px 0;
-	}
-
-	.contacts-title {
-		margin-bottom: 20px;
-	}
-
-	.contacts-content {
-		margin-bottom: 20px;
-	}
-
-	.contacts-button {
-		margin-bottom: 70px;
-	}
-
-	.contacts-social {
-		column-gap: 50px;
-		margin-bottom: 20px;
-	}
+	
 }
